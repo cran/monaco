@@ -1,7 +1,7 @@
 Package: monaco
 Type: Package
 Title: The 'Monaco' Editor as a HTML Widget
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: c(
     person(given = "Stéphane",
            family = "Laurent",
@@ -51,11 +51,11 @@ BugReports: https://github.com/stla/monaco/issues
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Imports: htmlwidgets, rstudioapi, tools, htmltools, shiny
+Imports: htmlwidgets (>= 1.5.3), rstudioapi, tools, htmltools, shiny
 Suggests: sass
 RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2020-11-23 14:41:49 UTC; stla
+Packaged: 2021-03-06 10:13:26 UTC; stla
 Author: Stéphane Laurent [aut, cre],
   Microsoft Corporation [ctb, cph] ('Monaco Editor' library),
   James Long and contributors [ctb, cph] ('Prettier' library),
@@ -71,4 +71,4 @@ Author: Stéphane Laurent [aut, cre],
   Limon Monte [ctb, cph] ('sweetalert2' library)
 Maintainer: Stéphane Laurent <laurent_step@outlook.fr>
 Repository: CRAN
-Date/Publication: 2020-11-23 15:30:05 UTC
+Date/Publication: 2021-03-06 10:30:09 UTC
